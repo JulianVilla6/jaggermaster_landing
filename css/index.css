@@ -19,6 +19,9 @@ body {
   background-size: cover;
   background-position: top  center; }
 
+.down {
+  margin-bottom: 200px; }
+
 .bg-black {
   background-color: black; }
 
