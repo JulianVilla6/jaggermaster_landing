@@ -1,0 +1,201 @@
+@font-face {
+  font-family: myFirstFont;
+  src: url("../fonts/bebas/BEBAS.TTF"); }
+h1 {
+  width: 30%;
+  font-size: 120px !important;
+  padding-top: 40%;
+  color: white !important;
+  font-family: "myFirstFont" !important; }
+
+html {
+  background-color: #f72c24; }
+
+body {
+  overflow-x: hidden;
+  background: url("../images/fondo-3.jpg");
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: top  center; }
+
+.bg-black {
+  background-color: black; }
+
+.bg {
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: top center; }
+
+button {
+  margin: 0 auto !important;
+  background-color: #f72c24;
+  cursor: pointer;
+  font-family: 'Lato', sans-serif;
+  font-family: 'Lato' !important;
+  -webkit-transition: all 0.20s ease-in-out;
+  -moz-transition: all  0.20s ease-in-out;
+  -o-transition: all  0.20s ease-in-out;
+  transition: all  0.20s ease-in-out;
+  -webkit-box-shadow: -2px -2px 18px 0px rgba(255, 255, 255, 0.5);
+  -moz-box-shadow: -2px -2px 18px 0px rgba(255, 255, 255, 0.5);
+  box-shadow: -2px -2px 18px 0px rgba(255, 255, 255, 0.5); }
+
+button:hover {
+  -ms-transform: scale(1.2, 1.2);
+  /* IE 9 */
+  -webkit-transform: scale(1.2, 1.2);
+  /* Safari */
+  transform: scale(1.2, 1.2); }
+
+.bg-jagger {
+  -webkit-background-size: cover;
+  background-size: cover;
+  height: 1300px; }
+
+.btn-call {
+  border: none;
+  width: 50%;
+  height: 40px;
+  border-radius: 20px;
+  min-width: 200px; }
+
+.pd-to {
+  margin-top: 30px; }
+
+.redes a img:hover {
+  opacity: 0.5; }
+
+#index-video {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  z-index: -100;
+  right: 0;
+  bottom: 0;
+  margin: 0;
+  padding: 0;
+  background: url(../images/cover.jpg) no-repeat center center;
+  background-size: cover;
+  overflow: hidden; }
+
+.index-video-wrapper {
+  height: 100%;
+  width: 100%;
+  background: url(../images/cover.jpg) no-repeat center center;
+  background-size: cover; }
+
+.arrow-down {
+  padding-top: 70px; }
+
+.anchorLink, .anchorLink2 img {
+  cursor: pointer; }
+
+.redes img {
+  width: 40%; }
+
+@media screen and (max-width: 1300px) {
+  .bg-jagger {
+    -webkit-background-size: cover;
+    background-size: cover;
+    height: 800px; } }
+.anchorLink2 {
+  display: none; }
+
+@media screen and (max-width: 500px) {
+  .redes img {
+    width: 70%; } }
+@media screen and (max-width: 1300px) {
+  h1 {
+    width: 30%;
+    font-size: 70px !important;
+    padding-top: 40%;
+    color: white !important; } }
+@media screen and (max-width: 1000px) {
+  .bg-jagger {
+    -webkit-background-size: cover;
+    background-size: cover;
+    height: 600px; }
+
+  body {
+    background: url("../images/movil.jpg");
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: top  center; }
+
+  .box-left {
+    padding-left: 70Px;
+    padding-top: 350px; }
+
+  h1 {
+    width: 30%;
+    font-size: 60px !important;
+    padding-top: 40%;
+    color: white !important; } }
+@media screen and (max-width: 1700px) {
+  .bg-jagger {
+    -webkit-background-size: cover;
+    background-size: cover;
+    height: 950px; } }
+.img-center {
+  margin: 0 auto; }
+
+.redes {
+  width: 100px;
+  margin: 0 auto;
+  margin-bottom: 20px; }
+
+.redes img {
+  float: left; }
+
+.box-ancho {
+  height: 200px; }
+
+hr {
+  color: white;
+  background-color: #fff;
+  margin-left: -70px;
+  position: relative;
+  z-index: 999999909; }
+
+.p-top {
+  padding-top: 30px; }
+
+.pd-bottom {
+  padding-bottom: 25px; }
+
+.c-white {
+  color: white; }
+
+.col-centered {
+  float: none;
+  margin: 0 auto; }
+
+.up {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  margin: 10px;
+  z-index: 999999999; }
+
+a {
+  text-decoration: none;
+  color: white !important; }
+
+.hv:hover div {
+  -ms-transform: scale(1.2, 1.2);
+  /* IE 9 */
+  -webkit-transform: scale(1.2, 1.2);
+  /* Safari */
+  transform: scale(1.2, 1.2); }
+
+.hv div {
+  font-family: 'Lato', sans-serif;
+  font-family: 'Lato' !important;
+  -webkit-transition: all 0.20s ease-in-out;
+  -moz-transition: all  0.20s ease-in-out;
+  -o-transition: all  0.20s ease-in-out;
+  transition: all  0.20s ease-in-out; }
+
+/*# sourceMappingURL=index.css.map */
