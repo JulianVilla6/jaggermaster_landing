@@ -1,3 +1,6 @@
+.down {
+  margin-bottom: 200px; }
+
 @font-face {
   font-family: myFirstFont;
   src: url("../fonts/bebas/BEBAS.TTF"); }
@@ -18,9 +21,6 @@ body {
   -webkit-background-size: cover;
   background-size: cover;
   background-position: top  center; }
-
-.down {
-  margin-bottom: 200px; }
 
 .bg-black {
   background-color: black; }

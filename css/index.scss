@@ -1,4 +1,8 @@
 $color_principal:#f72c24;
+.down{
+
+  margin-bottom: 200px;
+}
 
 @font-face {
     font-family: myFirstFont;
@@ -31,10 +35,6 @@ html{ background-color: #f72c24}
     -webkit-background-size: cover;
     background-size: cover ;
     background-position:top  center;
-    }
-
-    .down{
-      margin-bottom: 200px;
     }
 
 .bg-black{
